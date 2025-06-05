@@ -28,7 +28,7 @@ __parcel_aligment.py__ : Code for cross-species cortex surface clustering result
 
 ### Data Preparation
 1. Standard surface template for human and macaque.
-2. Xtract atlas for human and macaque. See: https://github.com/SPMIC-UoN/XTRACT_atlases(URL)
+2. Xtract atlas for human and macaque. See: https://github.com/SPMIC-UoN/XTRACT_atlases
 3. The cluster results for tractography. 
 
 ### Usage
