@@ -14,9 +14,9 @@ nibabel == 5.3.2
 
 ### File Profile
 
-__utils/*__ 
+> __utils/*__ 
 It contains various cortical processing tool scripts, as well as fiber reading code
 
-__cluster_metrics.py__
-> There are multiple parameter codes in the file for calculating clustering effects 2 4
+> __cluster_metrics.py__
+There are multiple parameter codes in the file for calculating clustering effects
 
