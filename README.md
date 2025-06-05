@@ -25,3 +25,30 @@ __gen_connect_atlas_mat*__ : These scripts contain code for calculating the feat
 __low_rank_tensor_learning.py__ ：Main code for matrix clustering optimization.
 
 __parcel_aligment.py__ : Code for cross-species cortex surface clustering results alignment.
+
+### Data Preparation
+1. Standard surface template for human and macaque.
+2. Xtract atlas for human and macaque. See: https://github.com/SPMIC-UoN/XTRACT_atlases(URL)
+3. The cluster results for tractography. 
+
+### Usage
+First, generate the feature matrix: VC(Vertex-Cluster), CA(Cluster-Atlas) use:
+```
+python gen_cluster-vertice_mat_human_thread.py
+```
+
+and
+
+```
+python gen_connect_atlas_mat_human_thread.py
+```
+
+then run the main scripts:
+```
+python low_rank_tensor_learning.py
+```
+
+The results of parcellations need alignment:
+```
+python parcel_alignment.py
+```
