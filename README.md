@@ -14,10 +14,14 @@ nibabel == 5.3.2
 
 ### File Profile
 
-> __utils/*__
+__utils/*__ : It contains various cortical processing tool scripts, as well as fiber reading code.
 
-It contains various cortical processing tool scripts, as well as fiber reading code
+__cluster_metrics.py__ : There are multiple parameter codes in the file for calculating clustering effects.
 
-> __cluster_metrics.py__
-There are multiple parameter codes in the file for calculating clustering effects
+__gen_cluster-vertice_mat*__ : These scripts contain code for calculating the feature matrix between vertices and clusters.
 
+__gen_connect_atlas_mat*__ : These scripts contain code for calculating the feature matrix between atlas and clusters.
+
+__low_rank_tensor_learning.py__ ：Main code for matrix clustering optimization.
+
+__parcel_aligment.py__ : Code for cross-species cortex surface clustering results alignment.
