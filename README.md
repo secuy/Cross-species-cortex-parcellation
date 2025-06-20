@@ -75,8 +75,8 @@ python gen_connect_atlas_mat_human_thread.py
 
 ### Step 2: Super-Vertex Preparcellation
 
-Apply spatial + feature-based super-vertex clustering (see inside `low_rank_tensor_learning.py` for internal integration).  
-Ensure that species surfaces are registered to a shared coordinate system.
+A super super-vertex clustering can be seen: https://github.com/sarslancs/supervertices.
+Apply features integration (see inside `low_rank_tensor_learning.py` for internal integration).  
 
 ### Step 3: Low-Rank Tensor Learning and Clustering
 
