@@ -29,10 +29,7 @@ This project presents a **two-stage clustering pipeline** for performing joint c
 ├── gen_connect_atlas_mat*.py       # Feature extraction: cluster-atlas (XTRACT) matrix
 ├── low_rank_tensor_learning.py     # Main optimization algorithm for homologous parcel discovery
 ├── parcel_alignment.py             # Final step for parcellation alignment across species
-└── utils/
-    ├── read_tck.py                 # Fiber reading utility
-    ├── surface_utils.py            # Surface registration and resampling tools
-    └── mat_utils.py                # General matrix and similarity utilities
+└── utils/                          # utils code file folder
 ```
 
 ---
