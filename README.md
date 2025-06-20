@@ -10,9 +10,6 @@ This repository contains the source code of the paper titled:
 Understanding conserved cortical regions across species is a central goal in comparative neuroscience. However, species differences in brain geometry and fiber projections pose significant challenges.  
 This project presents a **two-stage clustering pipeline** for performing joint cortical parcellation of human and macaque brains using multimodal structural connectivity features and low-rank tensor learning.
 
-We first compute **connectivity-based vertex features** from diffusion MRI tractography and a white matter tract atlas. These features are used in an iterative **super-vertex clustering** algorithm that integrates both geometric continuity and connectivity similarity.  
-Next, the grouped super-vertices are refined using a **low-rank tensor learning framework** that jointly encodes homologous connectivity patterns across species, enabling the extraction of **biologically consistent cortical parcels**.
-
 ---
 
 ## Key Contributions
