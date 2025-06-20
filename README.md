@@ -1,7 +1,7 @@
 # Cross-Species Cortical Parcellation via Homology Consensus Graph Representation Learning from Diffusion MRI Tractography
 
 This repository contains the source code of the paper titled:  
-**Cross-Species Cortical Parcellation via Homology Consensus Graph Representation Learning from Diffusion MRI Tractography**, submitted to a top conference in computational neuroscience.
+**Cross-Species Cortical Parcellation via Homology Consensus Graph Representation Learning from Diffusion MRI Tractography**.
 
 ---
 
@@ -79,11 +79,9 @@ python gen_cluster-vertice_mat_human_thread.py
 python gen_connect_atlas_mat_human_thread.py
 ```
 
-Repeat for macaque by running the corresponding `*_macaque_*.py` scripts.
-
 ### Step 2: Super-Vertex Preparcellation
 
-(Optional) Apply spatial + feature-based super-vertex clustering (see inside `low_rank_tensor_learning.py` for internal integration).  
+Apply spatial + feature-based super-vertex clustering (see inside `low_rank_tensor_learning.py` for internal integration).  
 Ensure that species surfaces are registered to a shared coordinate system.
 
 ### Step 3: Low-Rank Tensor Learning and Clustering
